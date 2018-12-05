@@ -1,0 +1,26 @@
+{
+    "name": "name",
+    "description": "description",
+    "authors": "author",
+    "version": "1.0.0",
+    "main": "pathToMain",
+    "scripts": {
+        "start": "webpack-dev-server --progress --colors",
+        "test": "webpack"
+    },
+    "dependencies": {
+        "fontfaceobserver": "^2.1.0",
+        "gsap": "^2.0.2",
+        "pixi.js": "git+https://github.com/pixijs/pixi.js.git#next-odie",
+        "signals": "^1.0.0",
+        "webpack": "^4.27.0"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.5",
+        "babel-preset-es2015": "^6.24.1",
+        "webpack-cli": "^3.1.2",
+        "webpack-dev-server": "^3.1.10",
+        "wepback": "^1.0.0"
+    }
+}
